@@ -38,8 +38,9 @@ cd Cryptmas-2025
 npm install    # takes ~3 seconds
 
 # 3. Run any day — all extra arguments are passed straight to the day’s function
-npm run day -- 1 "ciphertext"          # Day 1 with only ciphertext
-npm run day -- 5 "ciphertext" "key"    # Day 5 with ciphertext and a key
+# optionally wrap arguments in quotes if they contain spaces
+npm run day -- 1 ciphertext        # Day 1 with only ciphertext
+npm run day -- 4 ciphertext key    # Day 4 with ciphertext and a key
 ```
 
 ## Final Gift
