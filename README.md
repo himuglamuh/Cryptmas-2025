@@ -19,11 +19,32 @@ You won't get much to work off of when I post a puzzle. In most cases, it'll jus
 
 ### Plaintext Solutions
 
-Each plaintext solution is an all lowercase holiday-themed English word (or two - ex: `warmcookies`) with no spaces or punctuation. **If you complete all 12 puzzles (or find the answers in the replies), you'll have the password to the FINAL GIFT!!!***
+Each plaintext solution is an all lowercase holiday-themed English word (or two - ex: `warmcookies`) with no spaces or punctuation. **If you complete all 12 puzzles (or find the answers in the replies), you'll have the password to the FINAL GIFT!!!**
+
+### Code Solutions
+
+For each puzzle, I'll provide code that demonstrates how to solve it. The code will be in TypeScript, and I've included a handy `day.ts` runner so you can validate your answer for each day (or just spoil it).
+
+To run the code, follow these steps:
+
+```bash
+# 1. Make sure you have Node.js 18+ (most people already do)
+#    → check with: node --version
+#    → download from https://nodejs.org if needed
+
+# 2. Clone and set up (only once)
+git clone https://github.com/himuglamuh/Cryptmas-2025.git
+cd Cryptmas-2025
+npm install    # takes ~3 seconds
+
+# 3. Run any day — all extra arguments are passed straight to the day’s function
+npm run day -- 1 "ciphertext"          # Day 1 with only ciphertext
+npm run day -- 5 "ciphertext" "key"    # Day 5 with ciphertext and a key
+```
 
 ## Final Gift
 
-In this repo, you might have noticed a file called [https://github.com/himuglamuh/Cryptmas-2025/blob/main/final_gift.hc](final_gift.hc). This is a [VeraCrypt](https://veracrypt.io/en/Home.html) encrypted container with your final gift inside. To open it, you'll need the password, which is formed by concatenating all 12 plaintext solutions from the puzzles in order, separated by dashes.
+In this repo, you might have noticed a file called [`final_gift.hc`](https://github.com/himuglamuh/Cryptmas-2025/blob/main/final_gift.hc). This is a [VeraCrypt](https://veracrypt.io/en/Home.html) encrypted container with your final gift inside. To open it, you'll need the password, which is formed by concatenating all 12 plaintext solutions from the puzzles in order, separated by dashes.
 
 For instance, if the answers to the puzzles were:
 
