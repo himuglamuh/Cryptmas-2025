@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "day": "tsx day.ts"
+    "day": "tsx run_day.ts"
   },
   "name": "cryptmas-2025",
   "version": "1.0.0",

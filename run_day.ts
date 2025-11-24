@@ -1,6 +1,5 @@
 const dayArg = process.argv[2];
 
-
 if (Number(dayArg) < 1 || Number(dayArg) > 12) {
     console.log("Error: Day must be between 1 and 12. It's called TWELVE Days of Cryptmas.");
     process.exit(1);
