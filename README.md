@@ -1,6 +1,9 @@
 # 🎄🌟🎄 MERRY 12 DAYS OF CRYPTMAS! 🌟🎄🌟
 
-Welcome to the **12 Days of Cryptmas**! This festive season, we're celebrating over on [X](https://x.com/himuglamuh) (link to post coming once the event is live) with a special series. Each day, from December 1 to December 12, I'll be sharing content related to cryptography. Whether you're a beginner or an expert, it's my sincere hope that this will be fun, if not even a little educational.
+> [!NOTE]
+> Cryptmas is over! This repo contains solutions to all the puzzles I shared on X. Follow the entire thread: [https://x.com/HimugLamuh/status/1995540200421023885](https://x.com/HimugLamuh/status/1995540200421023885).
+
+Welcome to the **12 Days of Cryptmas**! This festive season, we're celebrating over on [X](https://x.com/himuglamuh) with a special series. Each day, from December 1 to December 12, I'll be sharing content related to cryptography. Whether you're a beginner or an expert, it's my sincere hope that this will be fun, if not even a little educational.
 
 ## What to Expect
 
